@@ -1,0 +1,2010 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="csrf-token" content="CO2g0vXfzgAbe5r00z7I1T7Im7UjJUHQSJDNdCSy ">
+    <link rel="shortcut icon" href="https://hyiprio.tdevs.co/assets/global/images/dXxWXFfPMXh1N1gcVEdl.png" type="image/x-icon" />
+    <link rel="icon" href="https://hyiprio.tdevs.co/assets/global/images/dXxWXFfPMXh1N1gcVEdl.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://hyiprio.tdevs.co/assets/global/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="https://hyiprio.tdevs.co/assets/backend/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://hyiprio.tdevs.co/assets/backend/css/animate.css" />
+    <link rel="stylesheet" href="https://hyiprio.tdevs.co/assets/global/css/nice-select.css" />
+    <link rel="stylesheet" href="https://hyiprio.tdevs.co/assets/global/css/datatables.min.css" />
+    <link rel="stylesheet" href="https://hyiprio.tdevs.co/assets/global/css/simple-notify.min.css" />
+    <link rel="stylesheet" href="https://hyiprio.tdevs.co/assets/global/css/simple-notify.min.css" />
+    <link rel="stylesheet" href="https://hyiprio.tdevs.co/assets/global/css/daterangepicker.css" />
+    <link rel="stylesheet" type="text/css" href="https://hyiprio.tdevs.co/assets/vendor/mckenziearts/laravel-notify/css/notify.css" />
+    <link rel="stylesheet" href="https://hyiprio.tdevs.co/assets/backend/css/summernote-lite.min.css" />
+    <link rel="stylesheet" href="https://hyiprio.tdevs.co/assets/global/css/select2.min.css" />
+    <link rel="stylesheet" href="https://hyiprio.tdevs.co/assets/global/css/custom.css?var=2.2" />
+    <link rel="stylesheet" href="https://hyiprio.tdevs.co/assets/backend/css/styles.css?var=2.2" />
+
+    <title>Hyiprio - Dashboard
+    </title>
+</head>
+
+<body>
+    <!--Full Layout-->
+    <div class="layout">
+
+        <script>
+            var notify = {
+                timeout: "5000",
+            }
+        </script>
+        <!--Header-->
+        <div class="header">
+            <div class="logo">
+                <a href="https://hyiprio.tdevs.co/admin">
+            <img
+                class="logo-unfold"
+                src="https://hyiprio.tdevs.co/assets/global/images/gfRumZOy2KeS4XHeuBFB.png"
+                alt="Logo"
+            />
+            <img
+                class="logo-fold"
+                src="https://hyiprio.tdevs.co/assets/global/images/gfRumZOy2KeS4XHeuBFB.png"
+                alt="Logo"
+            />
+        </a>
+            </div>
+            <div class="nav-wrap">
+                <div class="nav-left">
+                    <button class="sidebar-toggle"><i icon-name="list"></i></button>
+                </div>
+                <div class="nav-right">
+
+                    <div class="single-nav-right admin-language-switch">
+                        <select name="language" class="form-select" onchange="window.location.href=this.options[this.selectedIndex].value;">
+                                            <option
+                            value="https://hyiprio.tdevs.co/language-update?name=en" selected>English</option>
+                                            <option
+                            value="https://hyiprio.tdevs.co/language-update?name=es" >Spanish</option>
+                                            <option
+                            value="https://hyiprio.tdevs.co/language-update?name=fr" >Franch</option>
+                                    </select>
+                    </div>
+
+                    <div class="single-nav-right admin-notifications">
+                        <button type="button" class="item notification-dot" data-bs-toggle="dropdown" aria-expanded="false">
+    <i icon-name="bell-ring" class="bell-ringng"></i>
+    <div class="number">39</div>
+</button>
+                        <div class="dropdown-menu dropdown-menu-end notification-pop">
+                            <div class="noti-head">Notifications <span>39</span></div>
+                            <div class="all-noti">
+                                <div class="single-noti">
+                                    <a href="https://hyiprio.tdevs.co/admin/notification-read/55863" class="">
+                                        <div class="icon">
+                                            <i icon-name="user-plus"></i>
+                                        </div>
+                                        <div class="content">
+                                            <div class="main-cont">
+                                                <span>Eye X</span> Thanks for joining us eye x .New User added our system.
+                                            </div>
+                                            <div class="time">5 minutes ago</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-noti">
+                                    <a href="https://hyiprio.tdevs.co/admin/notification-read/55862" class="">
+                                        <div class="icon">
+                                            <i icon-name="user-plus"></i>
+                                        </div>
+                                        <div class="content">
+                                            <div class="main-cont">
+                                                <span>Philippe Nzabahisham</span> Thanks for joining us Philippe Nzabahisham .New User added our system.
+                                            </div>
+                                            <div class="time">33 minutes ago</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-noti">
+                                    <a href="https://hyiprio.tdevs.co/admin/notification-read/55861" class="">
+                                        <div class="icon">
+                                            <i icon-name="user-plus"></i>
+                                        </div>
+                                        <div class="content">
+                                            <div class="main-cont">
+                                                <span>Mr Muktar</span> Thanks for joining us Mr Muktar .New User added our system.
+                                            </div>
+                                            <div class="time">1 hour ago</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-noti">
+                                    <a href="https://hyiprio.tdevs.co/admin/notification-read/55860" class="">
+                                        <div class="icon">
+                                            <i icon-name="user-plus"></i>
+                                        </div>
+                                        <div class="content">
+                                            <div class="main-cont">
+                                                <span>Charles Peter</span> Thanks for joining us charles peter .New User added our system.
+                                            </div>
+                                            <div class="time">2 hours ago</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-noti">
+                                    <a href="https://hyiprio.tdevs.co/admin/notification-read/55859" class="">
+                                        <div class="icon">
+                                            <i icon-name="fingerprint"></i>
+                                        </div>
+                                        <div class="content">
+                                            <div class="main-cont">
+                                                <span>Pawel Brzeski</span> Pawel Brzeski Kyc requested elektryk1910@gmail.com
+
+                                            </div>
+                                            <div class="time">3 hours ago</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-noti">
+                                    <a href="https://hyiprio.tdevs.co/admin/notification-read/55858" class="">
+                                        <div class="icon">
+                                            <i icon-name="user-plus"></i>
+                                        </div>
+                                        <div class="content">
+                                            <div class="main-cont">
+                                                <span>Pawel Brzeski</span> Thanks for joining us Pawel Brzeski .New User added our system.
+                                            </div>
+                                            <div class="time">4 hours ago</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-noti">
+                                    <a href="https://hyiprio.tdevs.co/admin/notification-read/55857" class="">
+                                        <div class="icon">
+                                            <i icon-name="user-plus"></i>
+                                        </div>
+                                        <div class="content">
+                                            <div class="main-cont">
+                                                <span>Jalal ALbarea</span> Thanks for joining us Jalal ALbarea .New User added our system.
+                                            </div>
+                                            <div class="time">6 hours ago</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-noti">
+                                    <a href="https://hyiprio.tdevs.co/admin/notification-read/55856" class="">
+                                        <div class="icon">
+                                            <i icon-name="user-plus"></i>
+                                        </div>
+                                        <div class="content">
+                                            <div class="main-cont">
+                                                <span>Iti Iti</span> Thanks for joining us Iti Iti .New User added our system.
+                                            </div>
+                                            <div class="time">12 hours ago</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-noti">
+                                    <a href="https://hyiprio.tdevs.co/admin/notification-read/55855" class="">
+                                        <div class="icon">
+                                            <i icon-name="user-plus"></i>
+                                        </div>
+                                        <div class="content">
+                                            <div class="main-cont">
+                                                <span>Christina Jackson</span> Thanks for joining us Christina Jackson .New User added our system.
+                                            </div>
+                                            <div class="time">13 hours ago</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-noti">
+                                    <a href="https://hyiprio.tdevs.co/admin/notification-read/55852" class="">
+                                        <div class="icon">
+                                            <i icon-name="fingerprint"></i>
+                                        </div>
+                                        <div class="content">
+                                            <div class="main-cont">
+                                                <span>Rajesh Debbarma</span> Rajesh Debbarma Kyc requested dr.rworldcare@gmail.com
+
+                                            </div>
+                                            <div class="time">23 hours ago</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="noti-footer mt-3">
+                                <a class="noti-btn-1 me-1 w-100" href="https://hyiprio.tdevs.co/admin/notification-read/0">Mark All as Read</a>
+                                <a class="noti-btn-2 ms-1 w-100" href="https://hyiprio.tdevs.co/admin/notification/all">See all Notifications</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="single-nav-right">
+                        <a href="https://hyiprio.tdevs.co" target="_blank" class="item" data-bs-toggle="tooltip" title="" data-bs-placement="left" data-bs-original-title="Visit Landing Page">
+                    <i icon-name="globe"></i>
+                </a>
+                    </div>
+                    <div class="single-nav-right">
+                        <button type="button" class="item" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i icon-name="user"></i>
+                </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li>
+                                <a href="https://hyiprio.tdevs.co/admin/profile" class="dropdown-item"><i
+                                icon-name="user"></i>Profile</a>
+                            </li>
+                            <li>
+                                <a href="https://hyiprio.tdevs.co/admin/password-change" class="dropdown-item">
+                            <i icon-name="lock"></i>Change Password
+                        </a>
+                            </li>
+                            <li class="logout">
+
+                                <a href="https://hyiprio.tdevs.co/admin/logout" class="dropdown-item" type="button" onclick="event.preventDefault(); localStorage.clear();  $('#logout-form').submit();">
+                            <i icon-name="log-out"></i> Logout
+                        </a>
+                                <form id="logout-form" action="https://hyiprio.tdevs.co/admin/logout" method="POST" class="d-none">
+                                    <input type="hidden" name="_token" value="CO2g0vXfzgAbe5r00z7I1T7Im7UjJUHQSJDNdCSy"> </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Header-->
+
+        <!--Side Nav-->
+        <div class="side-nav">
+            <div class="side-nav-inside">
+                <ul class="side-nav-menu">
+
+                    <li class="side-nav-item active">
+                        <a href="https://hyiprio.tdevs.co/admin"><i
+                        icon-name="layout-dashboard"></i><span>Dashboard</span></a>
+                    </li>
+
+
+                    <li class="side-nav-item category-title">
+                        <span>Customer Management</span>
+                    </li>
+                    <li class="side-nav-item side-nav-dropdown ">
+                        <a href="javascript:void(0);" class="dropdown-link">
+                        <i icon-name="users"></i><span>Customers</span>
+                        <span class="right-arrow"><i icon-name="chevron-down"></i></span></a>
+                        <ul class="dropdown-items">
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/user"><i
+                                        icon-name="users"></i>All Customers</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/user/active"><i
+                                        icon-name="user-check"></i>Active Customers</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/user/disabled"><i
+                                        icon-name="user-x"></i>Disabled Customers</a>
+                            </li>
+
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/notification/all"><i
+                                    icon-name="megaphone"></i>Notifications</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/user/mail-send/all"><i
+                                        icon-name="send"></i>Send Email to all</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="side-nav-item side-nav-dropdown ">
+                        <a href="javascript:void(0);" class="dropdown-link"><i
+                            icon-name="check-square"></i><span>KYC Management</span><span
+                            class="right-arrow"><i icon-name="chevron-down"></i></span></a>
+                        <ul class="dropdown-items">
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/kyc/pending"><i
+                                        icon-name="airplay"></i>Pending KYC</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/kyc/rejected"><i
+                                        icon-name="file-warning"></i>Rejected KYC</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/kyc/all"><i
+                                        icon-name="contact"></i>All KYC Logs</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/kyc-form"><i
+                                        icon-name="check-square"></i>KYC Form</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+
+                    <li class="side-nav-item category-title">
+                        <span>Staff Management</span>
+                    </li>
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/roles"><i
+                                icon-name="contact"></i><span>Manage Roles</span></a>
+                    </li>
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/staff"><i
+                                icon-name="user-cog"></i><span>Manage Staffs</span></a>
+                    </li>
+
+
+                    <li class="side-nav-item category-title">
+                        <span>Plans</span>
+                    </li>
+                    <li class="side-nav-item side-nav-dropdown ">
+                        <a href="javascript:void(0);" class="dropdown-link"><i
+                            icon-name="album"></i><span>Manage Schema</span>
+                        <span class="right-arrow"><i icon-name="chevron-down"></i></span></a>
+                        <ul class="dropdown-items">
+                            <li class="side-nav-item ">
+                                <a href="https://hyiprio.tdevs.co/admin/schedule"><i
+                                        icon-name="alarm-check"></i><span>Schedule</span></a>
+                            </li>
+                            <li class="side-nav-item ">
+                                <a href="https://hyiprio.tdevs.co/admin/schema"><i
+                                        icon-name="airplay"></i><span>Manage Schema</span></a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+                    <li class="side-nav-item category-title">
+                        <span>Transactions</span>
+                    </li>
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/transactions"><i
+                                icon-name="cast"></i><span>Transactions</span></a>
+                    </li>
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/investments"><i
+                                icon-name="anchor"></i><span>Investments</span></a>
+                    </li>
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/all-profits"><i
+                                icon-name="credit-card"></i><span>User Profits</span></a>
+                    </li>
+
+
+
+                    <li class="side-nav-item category-title">
+                        <span>Essentials</span>
+                    </li>
+
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/gateway/automatic"><i
+                                    icon-name="door-open"></i><span>Automatic Gateways</span></a>
+                    </li>
+
+                    <li class="side-nav-item side-nav-dropdown ">
+                        <a href="javascript:void(0);" class="dropdown-link"><i
+                                icon-name="arrow-down-circle"></i><span>Deposits</span><span
+                                class="right-arrow"><i icon-name="chevron-down"></i></span></a>
+                        <ul class="dropdown-items">
+
+                            <li class=""><a href="https://hyiprio.tdevs.co/admin/deposit/method/list/auto"><i
+                                            icon-name="workflow"></i>Automatic Methods</a></li>
+
+                            <li class=""><a href="https://hyiprio.tdevs.co/admin/deposit/method/list/manual"><i
+                                            icon-name="compass"></i>Manual Methods</a></li>
+
+                            <li class=""><a href="https://hyiprio.tdevs.co/admin/deposit/manual-pending"><i
+                                            icon-name="columns"></i>Pending Manual Deposits</a></li>
+                            <li class=""><a href="https://hyiprio.tdevs.co/admin/deposit/history"><i
+                                            icon-name="clipboard-check"></i>Deposit History</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="side-nav-item side-nav-dropdown  ">
+                        <a href="javascript:void(0);" class="dropdown-link"><i
+                                icon-name="landmark"></i><span>Withdraw</span><span class="right-arrow"><i
+                                    icon-name="chevron-down"></i></span></a>
+                        <ul class="dropdown-items">
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/withdraw/method/list/auto"><i
+                                            icon-name="workflow"></i>Automatic Methods</a></li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/withdraw/method/list/manual"><i
+                                            icon-name="compass"></i>Manual Methods</a></li>
+
+                            <li class=""><a href="https://hyiprio.tdevs.co/admin/withdraw/pending"><i
+                                            icon-name="wallet"></i>Pending Withdraws</a></li>
+                            <li class=""><a href="https://hyiprio.tdevs.co/admin/withdraw/schedule"><i
+                                            icon-name="alarm-clock"></i>Withdraw Schedule</a></li>
+                            <li class=""><a href="https://hyiprio.tdevs.co/admin/withdraw/history"><i
+                                            icon-name="piggy-bank"></i>Withdraw History</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="side-nav-item side-nav-dropdown ">
+                        <a href="javascript:void(0);" class="dropdown-link"><i
+                                icon-name="settings-2"></i><span>Manage Referral</span><span
+                                class="right-arrow"><i icon-name="chevron-down"></i></span></a>
+                        <ul class="dropdown-items">
+
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/referral/level"><i
+                                            icon-name="align-end-horizontal"></i>Multi Level Referral</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/referral/index"><i
+                                            icon-name="expand"></i>Targets Referral</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/ranking"><i
+                                icon-name="medal"></i><span>User Rankings</span></a>
+                    </li>
+
+
+
+
+
+                    <li class="side-nav-item category-title">
+                        <span>Site Settings</span>
+                    </li>
+                    <li class="side-nav-item side-nav-dropdown ">
+                        <a href="javascript:void(0);" class="dropdown-link"><i icon-name="settings"></i>
+                            <span>Settings</span><span class="right-arrow"><i icon-name="chevron-down"></i></span></a>
+                        <ul class="dropdown-items">
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/settings/site"><i
+                                            icon-name="settings-2"></i>Site Settings</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/settings/mail"><i
+                                            icon-name="inbox"></i>Email Settings</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/settings/plugin/system"><i
+                                            icon-name="toy-brick"></i>Plugin Settings</a>
+                            </li>
+
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/settings/plugin/sms"><i
+                                            icon-name="message-circle"></i>SMS Settings</a>
+                            </li>
+
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/settings/plugin/notification"><i
+                                            icon-name="bell-ring"></i>Push Notification</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/settings/notification/tune"><i
+                                            icon-name="volume-2"></i>Notification Tune</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/language"><i
+                                icon-name="languages"></i><span>Language Settings</span></a>
+                    </li>
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/page/settings"><i
+                                icon-name="layout"></i><span>Page Settings</span></a>
+                    </li>
+
+
+
+                    <li class="side-nav-item category-title">
+                        <span>Site Essentials</span>
+                    </li>
+
+
+                    <li class="side-nav-item side-nav-dropdown  ">
+                        <a href="javascript:void(0);" class="dropdown-link"><i
+                                icon-name="palette"></i><span>Theme Manage</span><span
+                                class="right-arrow"><i icon-name="chevron-down"></i></span></a>
+                        <ul class="dropdown-items">
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/theme/site"><i
+                                        icon-name="roller-coaster"></i>Site Theme</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/theme/dynamic-landing"><i
+                                        icon-name="warehouse"></i>Dynamic Landing Theme</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+                    <li class="side-nav-item side-nav-dropdown  ">
+                        <a href="javascript:void(0);" class="dropdown-link"><i
+                                icon-name="home"></i><span>Landing Page</span><span class="right-arrow"><i
+                                    icon-name="chevron-down"></i></span></a>
+                        <ul class="dropdown-items">
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/section/hero"><i
+                                            icon-name="egg"></i>Hero Section</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/section/schema"><i
+                                            icon-name="egg"></i>Schema Section</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/section/calculation"><i
+                                            icon-name="egg"></i>Calculation Section</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/section/howitworks"><i
+                                            icon-name="egg"></i>How it works Section
+</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/section/recent"><i
+                                            icon-name="egg"></i>Recent Section
+</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/section/whychooseus"><i
+                                            icon-name="egg"></i>Why Choose Us Section
+</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/section/counter"><i
+                                            icon-name="egg"></i>Counter Section
+</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/section/faq"><i
+                                            icon-name="egg"></i>FAQ Section
+</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/section/cta"><i
+                                            icon-name="egg"></i>Call To Action
+</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/section/blog"><i
+                                            icon-name="egg"></i>Blog Section
+</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/section/gateway"><i
+                                            icon-name="egg"></i>Gateway Section
+</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/section/newsletter"><i
+                                            icon-name="egg"></i>Newslatter Section
+</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="side-nav-item side-nav-dropdown ">
+                        <a href="javascript:void(0);" class="dropdown-link"><i
+                                icon-name="layout-grid"></i><span>Pages</span><span class="right-arrow"><i
+                                    icon-name="chevron-down"></i></span></a>
+                        <ul class="dropdown-items">
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/edit/schema"><i
+                                            icon-name="egg"></i>Schema</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/edit/howitworks"><i
+                                            icon-name="egg"></i>How It Works</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/edit/about"><i
+                                            icon-name="egg"></i>About Us</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/edit/faq"><i
+                                            icon-name="egg"></i>FAQ </a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/edit/ranking"><i
+                                            icon-name="egg"></i>Rankings </a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/edit/blog"><i
+                                            icon-name="egg"></i>Blog </a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/edit/contact"><i
+                                            icon-name="egg"></i>Contact Us</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/edit/privacy"><i
+                                            icon-name="egg"></i>Privacy Policy</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/edit/terms"><i
+                                            icon-name="egg"></i>Terms and Conditions</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/edit/login"><i
+                                            icon-name="egg"></i>Login</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/edit/registration"><i
+                                            icon-name="egg"></i>Registration</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/edit/forgetpassword"><i
+                                            icon-name="egg"></i>Forgot Password</a>
+                            </li>
+                            <li class="">
+                                <a href="https://hyiprio.tdevs.co/admin/page/create"><i
+                                        icon-name="egg"></i>Add New Page</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/navigation/menu"><i
+                                icon-name="menu"></i><span>Site Navigations</span></a>
+                    </li>
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/footer-content"><i
+                                icon-name="list-end"></i><span>Footer Contents</span></a>
+                    </li>
+
+
+
+
+                    <li class="side-nav-item category-title">
+                        <span>Templates</span>
+                    </li>
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/email-template"><i
+                            icon-name="mail"></i><span>Email Template</span></a>
+                    </li>
+
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/template/sms"><i
+                            icon-name="message-square"></i><span>SMS Template</span></a>
+                    </li>
+
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/template/notification"><i
+                            icon-name="bell-ring"></i><span>Push Notification Template</span></a>
+                    </li>
+
+
+
+                    <li class="side-nav-item category-title">
+                        <span>Others</span>
+                    </li>
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/subscribers"><i
+                            icon-name="mail-open"></i><span>All Subscriber</span></a>
+                    </li>
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/support-ticket/index"><i
+                            icon-name="wrench"></i><span>Support Tickets</span></a>
+                    </li>
+
+
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/custom-css"><i
+                            icon-name="braces"></i><span>Custom CSS</span></a>
+                    </li>
+
+                    <li class="side-nav-item ">
+                        <a href="https://hyiprio.tdevs.co/admin/clear-cache"><i
+                        icon-name="trash-2"></i><span>Clear Cache</span></a>
+                    </li>
+                    <li class="side-nav-item  ">
+                        <a href="https://hyiprio.tdevs.co/admin/application-info"><i
+                        icon-name="indent"></i><span>Application Details</span><span
+                        class="badge yellow-color">2.4</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--/Side Nav-->
+
+        <!--Page Content-->
+        <div class="page-container">
+            <div class="main-content">
+                <div class="page-title">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <div class="title-content">
+                                    <h2 class="title">Hyiprio Dashboard</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="admin-latest-announcements">
+                                <div class="content"><i icon-name="zap"></i>Explore what&#039;s important to review first</div>
+                                <div class="content">
+                                    <a href="https://hyiprio.tdevs.co/admin/withdraw/pending" class="site-btn-xs red-btn"><i
+                                                    icon-name="loader"
+                                                    class="spining-icon"></i>Withdraw Requests
+                                                (42)</a>
+
+                                    <a href="https://hyiprio.tdevs.co/admin/kyc/pending" class="site-btn-xs green-btn"><i
+                                                    icon-name="loader" class="spining-icon"></i>KYC Requests
+                                                (103)</a>
+
+                                    <a href="https://hyiprio.tdevs.co/admin/deposit/manual-pending" class="site-btn-xs primary-btn"><i icon-name="loader"
+                                                                                  class="spining-icon"></i>Deposit Requests
+                                                (209)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div class="data-card">
+                                <div class="icon">
+                                    <i icon-name="users"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="count">6013</h4>
+                                    <p>Registered User</p>
+                                </div>
+                                <a class="link" href="https://hyiprio.tdevs.co/admin/user"><i icon-name="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div class="data-card">
+                                <div class="icon">
+                                    <i icon-name="user-check"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="count">6010</h4>
+                                    <p>Active Users</p>
+                                </div>
+                                <a class="link" href="https://hyiprio.tdevs.co/admin/user/active"><i icon-name="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div class="data-card">
+                                <div class="icon">
+                                    <i icon-name="user-cog"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="count">2</h4>
+                                    <p>Site Staff</p>
+                                </div>
+                                <a class="link" href="https://hyiprio.tdevs.co/admin/staff"><i icon-name="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div class="data-card">
+                                <div class="icon">
+                                    <i icon-name="wallet"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>$<span class="count">392471</span></h4>
+                                    <p>Total Deposits</p>
+                                </div>
+                                <a class="link" href="https://hyiprio.tdevs.co/admin/deposit/history"><i icon-name="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div class="data-card">
+                                <div class="icon">
+                                    <i icon-name="landmark"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>$<span class="count">200</span></h4>
+                                    <p>Total Withdraw</p>
+                                </div>
+                                <a class="link" href="https://hyiprio.tdevs.co/admin/withdraw/history"><i icon-name="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div class="data-card">
+                                <div class="icon">
+                                    <i icon-name="link"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="count">521</h4>
+                                    <p>Total Referral</p>
+                                </div>
+                                <a class="link" href="https://hyiprio.tdevs.co/admin/referral/index"><i icon-name="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div class="data-card">
+                                <div class="icon">
+                                    <i icon-name="send"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>$<span class="count">6513.77</span></h4>
+                                    <p>Total Send</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div class="data-card">
+                                <div class="icon">
+                                    <i icon-name="droplet"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>$<span class="count">148236</span></h4>
+                                    <p>Total Investment</p>
+                                </div>
+                                <a class="link" href="https://hyiprio.tdevs.co/admin/investments"><i icon-name="external-link"></i></a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div class="data-card">
+                                <div class="icon">
+                                    <i icon-name="package-plus"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>$<span class="count">557</span></h4>
+                                    <p>Deposit Bonus</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div class="data-card">
+                                <div class="icon">
+                                    <i icon-name="sprout"></i>
+                                </div>
+                                <div class="content">
+                                    <h4> $<span class="count">619.5</span></h4>
+                                    <p>Investment Bonus</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div class="data-card">
+                                <div class="icon">
+                                    <i icon-name="webhook"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="count">25</h4>
+                                    <p>Total Automatic Gateway</p>
+                                </div>
+                                <a class="link" href="https://hyiprio.tdevs.co/admin/gateway/automatic"><i icon-name="external-link"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div class="data-card">
+                                <div class="icon">
+                                    <i icon-name="help-circle"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="count">87</h4>
+                                    <p>Total Ticket</p>
+                                </div>
+                                <a class="link" href="https://hyiprio.tdevs.co/admin/support-ticket/index"><i icon-name="external-link"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12">
+                            <div class="site-chart">
+                                <div class="site-card">
+                                    <div class="site-card-header">
+                                        <h3 class="title">Site Statistics</h3>
+                                        <div class="card-header-links">
+                                            <input class="card-header-input" type="text" name="daterange" value="04/01/2024 - 04/08/2024" />
+                                        </div>
+                                    </div>
+                                    <div class="site-card-body">
+                                        <canvas id="depositChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                            <div class="site-chart">
+                                <div class="site-card">
+                                    <div class="site-card-header">
+                                        <h3 class="title">Scheme Statistics</h3>
+                                    </div>
+                                    <div class="site-card-body">
+                                        <canvas id="schemeChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                            <div class="site-chart">
+                                <div class="site-card">
+                                    <div class="site-card-header">
+                                        <h3 class="title">Top Country Statistics</h3>
+                                    </div>
+                                    <div class="site-card-body">
+                                        <canvas id="countryChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                            <div class="site-chart">
+                                <div class="site-card">
+                                    <div class="site-card-header">
+                                        <h3 class="title">Best Browser Statistics</h3>
+                                    </div>
+                                    <div class="site-card-body">
+                                        <canvas id="browserChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                            <div class="site-chart">
+                                <div class="site-card">
+                                    <div class="site-card-header">
+                                        <h3 class="title">Best OS Statistics</h3>
+                                    </div>
+                                    <div class="site-card-body">
+                                        <canvas id="osChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="site-card">
+                                <div class="site-card-header">
+                                    <h3 class="title">Latest Registered User</h3>
+                                </div>
+                                <div class="site-card-body table-responsive">
+                                    <div class="site-datatable">
+                                        <table class="data-table mb-0">
+                                            <thead>
+                                                <tr>
+                                                    <th>Avatar</th>
+                                                    <th>User</th>
+                                                    <th>Email</th>
+                                                    <th>Balance</th>
+                                                    <th>Profit</th>
+                                                    <th>KYC</th>
+                                                    <th>Status</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <span class="avatar-text">ex</span>
+                                                    </td>
+                                                    <td><a href="https://hyiprio.tdevs.co/admin/user/6016/edit" class="link">eyex</a></td>
+                                                    <td>
+                                                        <strong>ey******@gm******m</strong>
+                                                    </td>
+                                                    <td><strong>$0</strong></td>
+                                                    <td><strong>$3</strong></td>
+                                                    <td>
+                                                        <div class="site-badge pending">Unverified</div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="site-badge success">Active</div>
+                                                    </td>
+                                                    <td>
+
+                                                        <a href="https://hyiprio.tdevs.co/admin/user/6016/edit" class="round-icon-btn primary-btn" data-bs-toggle="tooltip" title="" data-bs-original-title="Edit User"><i icon-name="edit-3"></i></a>
+                                                        <span type="button" data-id="6016" data-name="eye x" class="send-mail"><button class="round-icon-btn red-btn" data-bs-toggle="tooltip"
+                                             title="" data-bs-original-title="Send Email"><i
+                                                icon-name="mail"></i></button></span>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="avatar-text">PN</span>
+                                                    </td>
+                                                    <td><a href="https://hyiprio.tdevs.co/admin/user/6015/edit" class="link">Philippe</a></td>
+                                                    <td>
+                                                        <strong>nz*********@gm******m</strong>
+                                                    </td>
+                                                    <td><strong>$0</strong></td>
+                                                    <td><strong>$3</strong></td>
+                                                    <td>
+                                                        <div class="site-badge pending">Unverified</div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="site-badge success">Active</div>
+                                                    </td>
+                                                    <td>
+
+                                                        <a href="https://hyiprio.tdevs.co/admin/user/6015/edit" class="round-icon-btn primary-btn" data-bs-toggle="tooltip" title="" data-bs-original-title="Edit User"><i icon-name="edit-3"></i></a>
+                                                        <span type="button" data-id="6015" data-name="Philippe Nzabahisham" class="send-mail"><button class="round-icon-btn red-btn" data-bs-toggle="tooltip"
+                                             title="" data-bs-original-title="Send Email"><i
+                                                icon-name="mail"></i></button></span>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="avatar-text">MM</span>
+                                                    </td>
+                                                    <td><a href="https://hyiprio.tdevs.co/admin/user/6014/edit" class="link">bdmuktar1</a></td>
+                                                    <td>
+                                                        <strong>mr***********@gm******m</strong>
+                                                    </td>
+                                                    <td><strong>$0</strong></td>
+                                                    <td><strong>$3</strong></td>
+                                                    <td>
+                                                        <div class="site-badge pending">Unverified</div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="site-badge success">Active</div>
+                                                    </td>
+                                                    <td>
+
+                                                        <a href="https://hyiprio.tdevs.co/admin/user/6014/edit" class="round-icon-btn primary-btn" data-bs-toggle="tooltip" title="" data-bs-original-title="Edit User"><i icon-name="edit-3"></i></a>
+                                                        <span type="button" data-id="6014" data-name="Mr Muktar" class="send-mail"><button class="round-icon-btn red-btn" data-bs-toggle="tooltip"
+                                             title="" data-bs-original-title="Send Email"><i
+                                                icon-name="mail"></i></button></span>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="avatar-text">cp</span>
+                                                    </td>
+                                                    <td><a href="https://hyiprio.tdevs.co/admin/user/6013/edit" class="link">charles</a></td>
+                                                    <td>
+                                                        <strong>er************@gm******m</strong>
+                                                    </td>
+                                                    <td><strong>$0</strong></td>
+                                                    <td><strong>$3</strong></td>
+                                                    <td>
+                                                        <div class="site-badge pending">Unverified</div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="site-badge success">Active</div>
+                                                    </td>
+                                                    <td>
+
+                                                        <a href="https://hyiprio.tdevs.co/admin/user/6013/edit" class="round-icon-btn primary-btn" data-bs-toggle="tooltip" title="" data-bs-original-title="Edit User"><i icon-name="edit-3"></i></a>
+                                                        <span type="button" data-id="6013" data-name="charles peter" class="send-mail"><button class="round-icon-btn red-btn" data-bs-toggle="tooltip"
+                                             title="" data-bs-original-title="Send Email"><i
+                                                icon-name="mail"></i></button></span>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="avatar-text">PB</span>
+                                                    </td>
+                                                    <td><a href="https://hyiprio.tdevs.co/admin/user/6012/edit" class="link">Arbi1000</a></td>
+                                                    <td>
+                                                        <strong>el**********@gm******m</strong>
+                                                    </td>
+                                                    <td><strong>$0</strong></td>
+                                                    <td><strong>$3</strong></td>
+                                                    <td>
+                                                        <div class="site-badge pending">Unverified</div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="site-badge success">Active</div>
+                                                    </td>
+                                                    <td>
+
+                                                        <a href="https://hyiprio.tdevs.co/admin/user/6012/edit" class="round-icon-btn primary-btn" data-bs-toggle="tooltip" title="" data-bs-original-title="Edit User"><i icon-name="edit-3"></i></a>
+                                                        <span type="button" data-id="6012" data-name="Pawel Brzeski" class="send-mail"><button class="round-icon-btn red-btn" data-bs-toggle="tooltip"
+                                             title="" data-bs-original-title="Send Email"><i
+                                                icon-name="mail"></i></button></span>
+
+                                                    </td>
+                                                </tr>
+                                                <tr class="centered">
+                                                    <td colspan="7">
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="site-card">
+                                <div class="site-card-header">
+                                    <h3 class="title">Latest Investment</h3>
+                                </div>
+                                <div class="site-card-body table-responsive">
+                                    <div class="site-datatable">
+                                        <table class="data-table mb-0">
+                                            <thead>
+                                                <tr>
+                                                    <th>Avatar</th>
+                                                    <th>User</th>
+                                                    <th>Schema</th>
+                                                    <th>ROI</th>
+                                                    <th>Profit</th>
+                                                    <th>Capital Back</th>
+                                                    <th>Timeline</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+
+
+
+                                                <tr>
+                                                    <td>
+                                                        <img class="avatar" src="https://hyiprio.tdevs.co/assets/global/images/d3eDcoKD5ryWOm75VnXh.jpg" alt="" height="40" width="40">
+                                                    </td>
+                                                    <td><a href="https://hyiprio.tdevs.co/admin/user/5890/edit" class="link">DEAR_Official</a></td>
+                                                    <td>
+
+                                                        <strong> Starter Plan <i
+                                            icon-name="arrow-big-right"></i> $150
+                                    </strong>
+
+                                                    </td>
+                                                    <td>
+                                                        <strong>1.5%</strong>
+                                                    </td>
+
+                                                    <td>
+                                                        <strong>1 x 2.25 = 2.25 USD</strong>
+                                                    </td>
+                                                    <td>
+                                                        <div class="site-badge success">Yes</div>
+                                                    </td>
+                                                    <td>
+
+
+                                                        <div>
+                                                            <strong><span id="days1627"></span>D : <span
+                                                    id="hours1627"></span>H : <span
+                                                    id="minutes1627"></span>M : <span
+                                                    id="seconds1627"></span>S</strong>
+                                                            <span class="site-badge primary-bg ms-2" id="percentage1627"></span>
+                                                        </div>
+                                                        <div class="progress investment-timeline">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated" id="time-progress1627" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+
+
+                                                    </td>
+                                                </tr>
+
+
+
+                                                <tr>
+                                                    <td>
+                                                        <img class="avatar" src="https://hyiprio.tdevs.co/assets/global/images/d3eDcoKD5ryWOm75VnXh.jpg" alt="" height="40" width="40">
+                                                    </td>
+                                                    <td><a href="https://hyiprio.tdevs.co/admin/user/5890/edit" class="link">DEAR_Official</a></td>
+                                                    <td>
+
+                                                        <strong> Pro Plan <i
+                                            icon-name="arrow-big-right"></i> $250
+                                    </strong>
+
+                                                    </td>
+                                                    <td>
+                                                        <strong>$10</strong>
+                                                    </td>
+
+                                                    <td>
+                                                        <strong>1 x 10 = 10 USD</strong>
+                                                    </td>
+                                                    <td>
+                                                        <div class="site-badge success">Yes</div>
+                                                    </td>
+                                                    <td>
+
+
+                                                        <div>
+                                                            <strong><span id="days1626"></span>D : <span
+                                                    id="hours1626"></span>H : <span
+                                                    id="minutes1626"></span>M : <span
+                                                    id="seconds1626"></span>S</strong>
+                                                            <span class="site-badge primary-bg ms-2" id="percentage1626"></span>
+                                                        </div>
+                                                        <div class="progress investment-timeline">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated" id="time-progress1626" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+
+
+                                                    </td>
+                                                </tr>
+
+
+
+                                                <tr>
+                                                    <td>
+                                                        <span class="avatar-text">DJ</span>
+                                                    </td>
+                                                    <td><a href="https://hyiprio.tdevs.co/admin/user/5991/edit" class="link">Goodforu</a></td>
+                                                    <td>
+
+                                                        <strong> Starter Plan <i
+                                            icon-name="arrow-big-right"></i> $150
+                                    </strong>
+
+                                                    </td>
+                                                    <td>
+                                                        <strong>1.5%</strong>
+                                                    </td>
+
+                                                    <td>
+                                                        <strong>0 x 2.25 = 0 USD</strong>
+                                                    </td>
+                                                    <td>
+                                                        <div class="site-badge success">Yes</div>
+                                                    </td>
+                                                    <td>
+
+                                                        <div class="site-badge pending">Pending</div>
+                                                    </td>
+                                                </tr>
+
+
+
+                                                <tr>
+                                                    <td>
+                                                        <span class="avatar-text">HS</span>
+                                                    </td>
+                                                    <td><a href="https://hyiprio.tdevs.co/admin/user/5951/edit" class="link">harveststrata</a></td>
+                                                    <td>
+
+                                                        <strong> Advanced Plan <i
+                                            icon-name="arrow-big-right"></i> $200
+                                    </strong>
+
+                                                    </td>
+                                                    <td>
+                                                        <strong>$11</strong>
+                                                    </td>
+
+                                                    <td>
+                                                        <strong>2 x 11 = 22 USD</strong>
+                                                    </td>
+                                                    <td>
+                                                        <div class="site-badge pending">No</div>
+                                                    </td>
+                                                    <td>
+
+                                                        <div class="site-badge success">Completed</div>
+                                                        <div class="progress investment-timeline">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+
+
+                                                <tr>
+                                                    <td>
+                                                        <span class="avatar-text">HS</span>
+                                                    </td>
+                                                    <td><a href="https://hyiprio.tdevs.co/admin/user/5951/edit" class="link">harveststrata</a></td>
+                                                    <td>
+
+                                                        <strong> Standard Plan <i
+                                            icon-name="arrow-big-right"></i> $100
+                                    </strong>
+
+                                                    </td>
+                                                    <td>
+                                                        <strong>1.2%</strong>
+                                                    </td>
+
+                                                    <td>
+                                                        <strong>0 x 1.2 = 0 USD</strong>
+                                                    </td>
+                                                    <td>
+                                                        <div class="site-badge pending">No</div>
+                                                    </td>
+                                                    <td>
+
+
+                                                        <div>
+                                                            <strong><span id="days1623"></span>D : <span
+                                                    id="hours1623"></span>H : <span
+                                                    id="minutes1623"></span>M : <span
+                                                    id="seconds1623"></span>S</strong>
+                                                            <span class="site-badge primary-bg ms-2" id="percentage1623"></span>
+                                                        </div>
+                                                        <div class="progress investment-timeline">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated" id="time-progress1623" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+
+
+                                                    </td>
+                                                </tr>
+                                                <tr class="centered">
+                                                    <td colspan="7">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Modal for Send Email -->
+            <div class="modal fade" id="sendEmail" tabindex="-1" aria-labelledby="sendEmailModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-md modal-dialog-centered">
+                    <div class="modal-content site-table-modal">
+                        <div class="modal-body popup-body">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="popup-body-text">
+                                <h3 class="title mb-4"> Send Mail to <span id="name"></span></h3>
+                                <form action="https://hyiprio.tdevs.co/admin/user/mail-send" method="post" id="send-mail-form">
+                                    <input type="hidden" name="_token" value="CO2g0vXfzgAbe5r00z7I1T7Im7UjJUHQSJDNdCSy">
+                                    <input type="hidden" name="id" value="0" id="userId">
+
+                                    <div class="site-input-groups">
+                                        <label for="" class="box-input-label">Subject:</label>
+                                        <input type="text" name="subject" class="box-input mb-0" required="" />
+                                    </div>
+                                    <div class="site-input-groups">
+                                        <label for="" class="box-input-label">Email Details</label>
+                                        <textarea name="message" class="form-textarea mb-0"></textarea>
+                                    </div>
+
+                                    <div class="action-btns">
+                                        <button type="submit" class="site-btn-sm primary-btn me-2">
+                                <i icon-name="send"></i>
+                                Send Email
+                            </button>
+                                        <a href="#" class="site-btn-sm red-btn" data-bs-dismiss="modal" aria-label="Close">
+                                <i icon-name="x"></i>
+                                Close
+                            </a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal for Send Email-->
+
+        </div>
+        <!--Page Content-->
+    </div>
+    <!--/Full Layout-->
+
+    <script src="https://hyiprio.tdevs.co/assets/global/js/jquery.min.js"></script>
+    <script src="https://hyiprio.tdevs.co/assets/global/js/jquery-migrate.js"></script>
+    <script src="https://hyiprio.tdevs.co/assets/backend/js/jquery-ui.js"></script>
+
+    <script src="https://hyiprio.tdevs.co/assets/backend/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://hyiprio.tdevs.co/assets/backend/js/scrollUp.min.js"></script>
+    <script src="https://hyiprio.tdevs.co/assets/global/js/waypoints.min.js"></script>
+    <script src="https://hyiprio.tdevs.co/assets/global/js/jquery.counterup.min.js"></script>
+    <script src="https://hyiprio.tdevs.co/assets/backend/js/chart.js"></script>
+    <script src="https://hyiprio.tdevs.co/assets/global/js/lucide.min.js"></script>
+    <script src="https://hyiprio.tdevs.co/assets/global/js/jquery.nice-select.min.js"></script>
+    <script src="https://hyiprio.tdevs.co/assets/global/js/datatables.min.js" type="text/javascript" charset="utf8"></script>
+    <script src="https://hyiprio.tdevs.co/assets/global/js/moment.min.js"></script>
+    <script src="https://hyiprio.tdevs.co/assets/global/js/daterangepicker.min.js"></script>
+
+    <script src="https://hyiprio.tdevs.co/assets/global/js/simple-notify.min.js"></script>
+    <script src="https://hyiprio.tdevs.co/assets/backend/js/summernote-lite.min.js"></script>
+    <script src="https://hyiprio.tdevs.co/assets/global/js/select2.min.js"></script>
+    <script src="https://hyiprio.tdevs.co/assets/backend/js/main.js?var=5"></script>
+    <script src="https://hyiprio.tdevs.co/assets/global/js/pusher.min.js"></script>
+    <script src="https://hyiprio.tdevs.co/assets/global/js/custom.js?var=6"></script>
+
+    <script>
+        (function($) {
+            'use strict';
+
+            let pusherAppKey = "82f665b55640a9884640";
+            let pusherAppCluster = "ap2";
+            let soundUrl = "https://hyiprio.tdevs.co/notification-tune";
+
+            var notification = new Pusher(pusherAppKey, {
+                encrypted: true,
+                cluster: pusherAppCluster,
+            });
+            var channel = notification.subscribe('admin-notification');
+            channel.bind('notification-event', function(result) {
+                playSound();
+                latestNotification();
+                notifyToast(result);
+            });
+
+            function latestNotification() {
+                $.get('https://hyiprio.tdevs.co/admin/latest-notification', function(data) {
+                    $('.admin-notifications').html(data);
+                })
+            }
+
+            function notifyToast(data) {
+                new Notify({
+                    status: 'info',
+                    title: data.data.title,
+                    text: data.data.notice,
+                    effect: 'slide',
+                    speed: 300,
+                    customClass: '',
+                    customIcon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-megaphone"><path d="m3 11 18-5v12L3 14v-3z"></path><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path></svg>',
+                    showIcon: true,
+                    showCloseButton: true,
+                    autoclose: true,
+                    autotimeout: 9000,
+                    gap: 20,
+                    distance: 20,
+                    type: 1,
+                    position: 'right bottom',
+                    customWrapper: '<div><a href="' + data.data.action_url + '" class="learn-more-link">Explore<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" icon-name="external-link" class="lucide lucide-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" x2="21" y1="14" y2="3"></line></svg></a></div>',
+                })
+
+            }
+
+            function playSound() {
+                $.get(soundUrl, function(data) {
+                    var audio = new Audio(data);
+                    audio.play();
+                    audio.muted = false;
+                });
+            }
+
+
+        })(jQuery);
+    </script>
+    <script type="text/javascript" src="https://hyiprio.tdevs.co/assets/vendor/mckenziearts/laravel-notify/js/notify.js"></script>
+    <script>
+        (function($) {
+            'use strict';
+
+            //site chart
+            let chart;
+            $('input[name="daterange"]').daterangepicker({
+                opens: 'left'
+            }, function(start, end) {
+
+                $.get('https://hyiprio.tdevs.co/admin', {
+                    start_date: start.format('YYYY-MM-DD'),
+                    end_date: end.format('YYYY-MM-DD')
+                }, function(chartData) {
+
+                    chart.destroy()
+                    chart_show(chartData);
+                });
+            });
+
+
+            function chart_show(chartData) {
+                var date_label = Object.keys(chartData['date_label']);
+                var deposit_data = Object.values(chartData['deposit_statistics']);
+                var invest_data = Object.values(chartData['invest_statistics']);
+                var withdraw_data = Object.values(chartData['withdraw_statistics']);
+                var profit_data = Object.values(chartData['profit_statistics']);
+                var symbol = chartData['symbol'];
+
+
+                // Bar Chart
+                var data = {
+                    labels: date_label,
+                    datasets: [{
+                            label: 'Total Deposit ' + symbol + sumArrayValues(deposit_data),
+                            data: deposit_data,
+                            backgroundColor: '#ef476f',
+                            borderColor: '#ffffff',
+                            borderWidth: 0,
+                            borderRadius: 90,
+                            tension: 0.1
+                        },
+                        {
+                            label: 'Total Investment ' + symbol + sumArrayValues(invest_data),
+                            data: invest_data,
+                            backgroundColor: '#5e3fc9',
+                            borderColor: '#ffffff',
+                            borderWidth: 0,
+                            borderRadius: 90,
+                            tension: 1
+                        },
+                        {
+                            label: 'Total Withdraw ' + symbol + sumArrayValues(withdraw_data),
+                            data: withdraw_data,
+                            backgroundColor: '#2a9d8f',
+                            borderColor: '#ffffff',
+                            borderWidth: 0,
+                            borderRadius: 90,
+                            tension: 0.1
+                        },
+                        {
+                            label: 'Total Profit ' + symbol + sumArrayValues(profit_data),
+                            data: profit_data,
+                            backgroundColor: '#003566',
+                            borderColor: '#ffffff',
+                            borderWidth: 0,
+                            borderRadius: 90,
+                            tension: 0.1
+                        },
+                    ]
+                };
+                // render init block
+
+
+                var ctx = document.getElementById('depositChart');
+                var configuration = {
+                    type: 'bar',
+                    data,
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                            }
+                        },
+                        plugins: {
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        return (context.dataset.label.split(symbol)[0]).split(' ')[1] + ': ' + symbol + context.formattedValue;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                if (chart) {
+                    chart.destroy();
+                    chart = new Chart(ctx, configuration);
+                } else {
+                    chart = new Chart(ctx, configuration);
+                }
+            }
+
+            var chartData = {
+                'date_label': {
+                    "01 Apr": 0,
+                    "02 Apr": 0,
+                    "03 Apr": 0,
+                    "04 Apr": 0,
+                    "05 Apr": 0,
+                    "06 Apr": 0,
+                    "07 Apr": 0,
+                    "08 Apr": 0
+                },
+                'deposit_statistics': {
+                    "01 Apr": 0,
+                    "02 Apr": 50,
+                    "03 Apr": 0,
+                    "04 Apr": 410,
+                    "05 Apr": 0,
+                    "06 Apr": 0,
+                    "07 Apr": 470,
+                    "08 Apr": 0
+                },
+                'invest_statistics': {
+                    "01 Apr": 0,
+                    "02 Apr": 0,
+                    "03 Apr": 0,
+                    "04 Apr": 300,
+                    "05 Apr": 0,
+                    "06 Apr": 0,
+                    "07 Apr": 400,
+                    "08 Apr": 0
+                },
+                'withdraw_statistics': {
+                    "01 Apr": 0,
+                    "02 Apr": 0,
+                    "03 Apr": 0,
+                    "04 Apr": 0,
+                    "05 Apr": 0,
+                    "06 Apr": 0,
+                    "07 Apr": 0,
+                    "08 Apr": 0
+                },
+                'profit_statistics': {
+                    "01 Apr": 52,
+                    "02 Apr": 40,
+                    "03 Apr": 61,
+                    "04 Apr": 85,
+                    "05 Apr": 42,
+                    "06 Apr": 24,
+                    "07 Apr": 36,
+                    "08 Apr": 36.25,
+                    "31 Mar": 9
+                },
+                'symbol': "$",
+            }
+            chart_show(chartData);
+
+
+            //Plan chart
+            var schema = {
+                "Starter Plan": 173,
+                "Pro Plan": 81,
+                "Standard Plan": 54,
+                "Advanced Plan": 36
+            };
+            var invest_data = Object.values(schema);
+            var invest_label = Object.keys(schema);
+            // Bar Chart
+            var data = {
+                labels: invest_label,
+                datasets: [{
+                    label: 'Total Investment',
+                    data: invest_data,
+                    backgroundColor: [
+                        '#5e3fc9',
+                        '#2a9d8f',
+                        '#ee6c4d',
+                        '#6d597a',
+                        '#003566',
+                        '#ef476f',
+                        '#718355',
+                    ],
+                    borderColor: [
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff'
+                    ],
+                    borderWidth: 3,
+                    borderRadius: 12,
+                    barPercentage: 0.3,
+                    hoverBackgroundColor: '#003566',
+                }]
+            };
+            // render init block
+            new Chart(
+                document.getElementById('schemeChart'), {
+                    type: 'doughnut',
+                    data,
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                }
+            );
+
+
+            // Country Chart
+            var country = {
+                "Nigeria": 953,
+                "Zimbabwe": 866,
+                "Pakistan": 730,
+                "India": 499,
+                "Bangladesh": 434
+            };
+            var country_data = Object.values(country);
+            var country_label = Object.keys(country);
+            var data = {
+                labels: country_label,
+                datasets: [{
+                    label: 'Country',
+                    data: country_data,
+                    backgroundColor: [
+                        '#5e3fc9',
+                        '#2a9d8f',
+                        '#ef476f',
+                        '#718355',
+                        '#ee6c4d',
+                        '#6d597a',
+                        '#003566',
+                        "#b91d47",
+                        "#00aba9",
+                        "#2b5797",
+                        "#e8c3b9",
+                        "#1e7145"
+                    ],
+                    borderColor: [
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff'
+                    ],
+                    borderWidth: 3,
+                    borderRadius: 12,
+                    barPercentage: 0.3,
+                    hoverBackgroundColor: '#003566',
+                }]
+            };
+            // render init block
+            new Chart(
+                document.getElementById('countryChart'), {
+                    type: 'doughnut',
+                    data,
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                }
+            );
+
+            // Browser Chart
+            var browser = {
+                "Chrome": 8346,
+                "Edge": 257,
+                "Safari": 801,
+                "Firefox": 266,
+                "Opera": 141,
+                "Mozilla": 22,
+                "UCBrowser": 5
+            };
+            var browser_data = Object.values(browser);
+            var browser_label = Object.keys(browser);
+            var data = {
+                labels: browser_label,
+                datasets: [{
+                    label: 'Browser',
+                    data: browser_data,
+                    backgroundColor: [
+                        '#5e3fc9',
+                        '#2a9d8f',
+                        '#ef476f',
+                        '#718355',
+                        '#ee6c4d',
+                        '#6d597a',
+                        '#003566',
+                        "#b91d47",
+                        "#00aba9",
+                        "#2b5797",
+                        "#e8c3b9",
+                        "#1e7145"
+                    ],
+                    borderColor: [
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff'
+                    ],
+                    borderWidth: 2,
+                    borderRadius: 12,
+                    barPercentage: 0.3,
+                    hoverBackgroundColor: '#003566',
+                }]
+            };
+            // render init block
+            new Chart(
+                document.getElementById('browserChart'), {
+                    type: 'polarArea',
+                    data,
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                }
+            );
+
+            // OS Chart
+            var platform = {
+                "Windows": 3009,
+                "Ubuntu": 8,
+                "OS X": 306,
+                "AndroidOS": 5404,
+                "iOS": 942,
+                "Linux": 161,
+                "ChromeOS": 8
+            };
+            var platform_data = Object.values(platform);
+            var platform_label = Object.keys(platform);
+            var data = {
+                labels: platform_label,
+                datasets: [{
+                    label: 'OS',
+                    data: platform_data,
+                    backgroundColor: [
+                        '#5e3fc9',
+                        '#718355',
+                        '#ef476f',
+                        '#ee6c4d',
+                        "#b91d47",
+                        "#2b5797",
+                        "#e8c3b9",
+                        "#1e7145",
+                        '#2a9d8f',
+                    ],
+                    borderColor: [
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff',
+                        '#ffffff'
+                    ],
+                    borderWidth: 3,
+                    borderRadius: 12,
+                    barPercentage: 0.3,
+                    hoverBackgroundColor: '#003566',
+                }]
+            };
+            // render init block
+            new Chart(
+                document.getElementById('osChart'), {
+                    type: 'pie',
+                    data,
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                }
+            );
+
+        })(jQuery);
+    </script>
+    <script>
+        (function($) {
+            'use strict'
+            //send mail modal form open
+            $('.send-mail').on('click', function() {
+                var id = $(this).data('id')
+                var name = $(this).data('name')
+                $('#name').html(name)
+                $('#userId').val(id)
+                $('#sendEmail').modal('toggle')
+            })
+        })(jQuery)
+    </script>
+    <script>
+        (function($) {
+            "use strict";
+            // Countdown
+            const second = 1000,
+                minute = second * 60,
+                hour = minute * 60,
+                day = hour * 24;
+            let timezone = "Asia\/Dhaka";
+
+            let countDown = new Date('Apr 09, 2024 01:38').getTime()
+            var start = new Date('2024-04-08 01:38:02').getTime()
+            setInterval(function() {
+
+                let utc_datetime_str = new Date().toLocaleString("en-US", {
+                    timeZone: timezone
+                });
+                let now = new Date(utc_datetime_str).getTime();
+                let distance = countDown - now;
+
+
+                var progress = (((now - start) / (countDown - start)) * 100).toFixed(2);
+
+
+                $("#time-progress1627").css("width", progress + '%');
+
+                $("#percentage1627").text(progress >= 100 ? 100 + '%' : progress + '%');
+
+                document.getElementById('days1627').innerText = Math.floor(distance < 0 ? 0 : distance / (day)),
+                    document.getElementById('hours1627').innerText = Math.floor(distance < 0 ? 0 : (distance % (day)) / (hour)),
+                    document.getElementById('minutes1627').innerText = Math.floor(distance < 0 ? 0 : (distance % (hour)) / (minute)),
+                    document.getElementById('seconds1627').innerText = Math.floor(distance < 0 ? 0 : (distance % (minute)) / second);
+
+            }, second)
+
+        })(jQuery)
+    </script>
+    <script>
+        (function($) {
+            "use strict";
+            // Countdown
+            const second = 1000,
+                minute = second * 60,
+                hour = minute * 60,
+                day = hour * 24;
+            let timezone = "Asia\/Dhaka";
+
+            let countDown = new Date('Apr 09, 2024 01:33').getTime()
+            var start = new Date('2024-04-08 01:33:01').getTime()
+            setInterval(function() {
+
+                let utc_datetime_str = new Date().toLocaleString("en-US", {
+                    timeZone: timezone
+                });
+                let now = new Date(utc_datetime_str).getTime();
+                let distance = countDown - now;
+
+
+                var progress = (((now - start) / (countDown - start)) * 100).toFixed(2);
+
+
+                $("#time-progress1626").css("width", progress + '%');
+
+                $("#percentage1626").text(progress >= 100 ? 100 + '%' : progress + '%');
+
+                document.getElementById('days1626').innerText = Math.floor(distance < 0 ? 0 : distance / (day)),
+                    document.getElementById('hours1626').innerText = Math.floor(distance < 0 ? 0 : (distance % (day)) / (hour)),
+                    document.getElementById('minutes1626').innerText = Math.floor(distance < 0 ? 0 : (distance % (hour)) / (minute)),
+                    document.getElementById('seconds1626').innerText = Math.floor(distance < 0 ? 0 : (distance % (minute)) / second);
+
+            }, second)
+
+        })(jQuery)
+    </script>
+    <script>
+        (function($) {
+            "use strict";
+            // Countdown
+            const second = 1000,
+                minute = second * 60,
+                hour = minute * 60,
+                day = hour * 24;
+            let timezone = "Asia\/Dhaka";
+
+            let countDown = new Date('Apr 11, 2024 01:05').getTime()
+            var start = new Date('Apr 04, 2024 01:05').getTime()
+            setInterval(function() {
+
+                let utc_datetime_str = new Date().toLocaleString("en-US", {
+                    timeZone: timezone
+                });
+                let now = new Date(utc_datetime_str).getTime();
+                let distance = countDown - now;
+
+
+                var progress = (((now - start) / (countDown - start)) * 100).toFixed(2);
+
+
+                $("#time-progress1623").css("width", progress + '%');
+
+                $("#percentage1623").text(progress >= 100 ? 100 + '%' : progress + '%');
+
+                document.getElementById('days1623').innerText = Math.floor(distance < 0 ? 0 : distance / (day)),
+                    document.getElementById('hours1623').innerText = Math.floor(distance < 0 ? 0 : (distance % (day)) / (hour)),
+                    document.getElementById('minutes1623').innerText = Math.floor(distance < 0 ? 0 : (distance % (hour)) / (minute)),
+                    document.getElementById('seconds1623').innerText = Math.floor(distance < 0 ? 0 : (distance % (minute)) / second);
+
+            }, second)
+
+        })(jQuery)
+    </script>
+
+
+
+
+</body>
+
+</html>
